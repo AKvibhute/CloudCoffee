@@ -1,0 +1,69 @@
+.aboutus-page {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+.about-section, .terms-section {
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.fancy-title {
+  font-size: 2rem;
+  color: #3e2f2f;
+  border-left: 5px solid #d3a561;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.terms-section h3 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  color: #5e4637;
+  border-bottom: 1px solid #dcd2c1;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+strong {
+  color: #422d1e;
+}
+
+@media (max-width: 768px) {
+  .about-section, .terms-section {
+    padding: 20px;
+  }
+
+  .fancy-title {
+    font-size: 1.5rem;
+  }
+
+  .terms-section h3 {
+    font-size: 1.1rem;
+  }
+}

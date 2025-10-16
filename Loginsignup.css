@@ -1,0 +1,138 @@
+/* Full-page container with centered content */
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background video with 0.5 opacity */
+.bg-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   
+}
+
+/* Login card with glassmorphism effect */
+.login-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px 35px;
+  margin : 10px;
+  width: 360px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+/* Heading and paragraph */
+.login-card h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.login-card p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+/* Google button */
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Divider */
+.divider {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #eee;
+}
+
+/* Input fields */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+  font-size: 14px;
+}
+
+/* Checkbox and forgot link */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.options a {
+  color: #311b1b;
+  text-decoration: none;
+}
+
+.options input {
+  margin-right: 6px;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* Sign in button */
+.sign-in-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #311b1b;
+}
+
+/* Sign up link */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.signup-link a {
+  color: #311b1b;
+  text-decoration: none;
+  font-weight: 500;
+}

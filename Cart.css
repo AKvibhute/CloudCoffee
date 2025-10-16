@@ -1,0 +1,141 @@
+
+.cart-container {
+  padding: 30px;
+  background-color: white;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.cart-heading {
+
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #6f4e37;
+}
+
+.back-arrow a {
+  color: #6f4e37;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.cart-main {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.cart-left {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(111, 78, 55, 0.2);
+}
+
+.cart-table-header,
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 0.5fr;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-table-header {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.qty-input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #c0392b;
+  cursor: pointer;
+}
+
+.coupon-row {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.coupon-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #6f4e37;
+  border-radius: 5px;
+}
+
+.apply-btn {
+  padding: 8px 16px;
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-right {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(111, 78, 55, 0.2);
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  color: brown;
+}

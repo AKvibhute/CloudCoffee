@@ -1,0 +1,63 @@
+.order-container {
+  padding: 30px;
+  background-color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #6f4e37;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(111, 78, 55, 0.1);
+  align-items: center;
+}
+
+.order-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order-info {
+  flex-grow: 1;
+}
+
+.buy-again-btn {
+  padding: 8px 14px;
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-again-btn:hover {
+  background-color: #8b5a2b;
+}
+
+.old-price {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+.old-price s {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px; /* thicker strike-through */
+  color: red; /* red line */
+}

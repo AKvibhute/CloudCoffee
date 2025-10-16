@@ -1,0 +1,116 @@
+.contact-page {
+  display: flex;
+  flex-direction: column; /* Changed for vertical layout */
+  min-height: 100vh;      /* Full viewport height */
+  padding: 20px;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-body {
+  display: flex;
+  flex: 1; /* Allows footer to be pushed down */
+  gap: 20px;
+}
+
+.contact-form-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-form-right {
+  flex: 2;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+  max-width: 100%;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #c4704f;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #d6ab82;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ebccaf;
+}
+
+.social-container-custom {
+  background-color: #dbdbdb;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.social-title-custom {
+  color: #c4704f;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons-custom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.social-icons-custom a {
+  color: #070707;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-icons-custom a:hover {
+  color: #f36e15;
+}

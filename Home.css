@@ -1,0 +1,82 @@
+/* Hero Container */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 89vh;
+  background-color: #fcfbfa;
+
+  /* Background images */
+  background-image: url('../components/assets/coffeeBeans.png'), 
+                    url('../components/assets/coffeeSplash.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, bottom right;
+  background-size: 40vw auto, 30vw auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Hero Left Section */
+.hero-left {
+  width: 75%;
+  text-align: center;
+  transform: translate(80px, 20px);
+}
+
+/* Main Heading */
+.hero-left h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c1d0f;
+  margin-bottom: 45px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Button Container */
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Button Styling */
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #7b4a2d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5e3722;
+}
+
+/* Optional: Responsive Tweak */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    background-size: 60vw auto, 50vw auto;
+  }
+
+  .hero-left {
+    transform: none;
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
